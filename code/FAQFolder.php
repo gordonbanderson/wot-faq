@@ -2,7 +2,7 @@
 /**
  * Defines the FAQFolder page type - initial code created by ss generator
  */
-class FAQFolder extends Page implements RenderableAsPortlet {
+class FAQFolder extends Page {
 
 	static $allowed_children = array( 'FAQFolder', 'FAQ' );
 
@@ -13,34 +13,12 @@ class FAQFolder extends Page implements RenderableAsPortlet {
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
 
-		$fields->addFieldToTab( 'Root.Content.Image', new ImageField( 'MainImage' ) );
+		$fields->addFieldToTab( 'Root.Image', new UploadField( 'MainImage' ) );
 
 
 		return $fields;
 	}
 
-
-	public function getPortletTitle() {
-    return $this->Title;
-  }  
-
-
-  // FIXME - make this more efficient
-  public function getPortletImage() {
-  	if ($this->MainImageID) {
-    return DataObject::get_by_id('Image', $this->MainImageID);
-
-  	} else {
-  		return null;
-  	}
-    
-  }
-  
-  
- 
-  public function getPortletCaption() {
-    return '';
-  }
 
 }
 
