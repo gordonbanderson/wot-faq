@@ -1,0 +1,21 @@
+{
+	"name": "weboftalent/faq",
+	"description": "Simple frequently asked questions module for SilverStripe",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "faq"],
+	"authors": [
+		{
+			"name": "Gordon Anderson",
+			"email": "gordon.b.anderson@gmail.com",
+			"homepage": "https://github.com/gordonbanderson/wot-faq",
+			"role": "Developer"
+		}
+	],
+    "support": {
+        "issues": "https://github.com/gordonbanderson/wot-faq/issues"
+    },
+	"require":
+	{
+		"silverstripe/framework": "~3.1"
+	}
+}
