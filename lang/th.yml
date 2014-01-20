@@ -1,0 +1,7 @@
+th:
+  FAQ:
+      PLURALNAME: 'Frequently Asked Questions (TH)'
+      SINGULARNAME: 'Frequently Asked Question (TH)'
+  FAQFolder:
+      PLURALNAME: 'FAQ Folders (TH)'
+      SINGULARNAME: 'FAQ Folder (TH)'
