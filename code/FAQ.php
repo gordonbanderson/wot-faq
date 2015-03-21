@@ -4,16 +4,13 @@
 */
 class FAQ extends Page {
 
-  function getCMSFields() {
-$fields = parent::getCMSFields();
-
-    return $fields;
-  }
+ 	function getCMSFields() {
+		$fields = parent::getCMSFields();
+		return $fields;
+	}
 
 }
 
 class FAQ_Controller extends Page_Controller {
 
 }
-
-?>

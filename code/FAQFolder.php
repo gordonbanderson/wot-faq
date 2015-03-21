@@ -25,5 +25,3 @@ class FAQFolder extends Page {
 class FAQFolder_Controller extends Page_Controller {
 
 }
-
-?>
