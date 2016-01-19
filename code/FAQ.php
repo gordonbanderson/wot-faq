@@ -1,19 +1,14 @@
 <?php
 /**
-* Defines the FAQ page type - initial code created by ss generator
+* Defines the FAQ page type - initial code created by ss generator.
 */
-class FAQ extends Page {
+class FAQ extends Page
+{
+	private static $show_in_sitetree = false;
 
-  function getCMSFields() {
-$fields = parent::getCMSFields();
-
-    return $fields;
-  }
-
+	private static $allowed_children = array();
 }
 
-class FAQ_Controller extends Page_Controller {
-
+class FAQ_Controller extends Page_Controller
+{
 }
-
-?>
