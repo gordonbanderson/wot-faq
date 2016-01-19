@@ -1,9 +1,9 @@
 # Frequently Asked Questions
-[![Build Status](https://travis-ci.org/gordonbanderson/wot-faq.svg?branch=continuous_integration)](https://travis-ci.org/gordonbanderson/wot-faq)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/badges/quality-score.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/?branch=continuous_integration)
-[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/badges/coverage.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/?branch=continuous_integration)
-[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/badges/build.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/build-status/continuous_integration)
-[![codecov.io](https://codecov.io/github/gordonbanderson/wot-faq/coverage.svg?branch=continuous_integration)](https://codecov.io/github/gordonbanderson/wot-faq?branch=continuous_integration)
+[![Build Status](https://travis-ci.org/gordonbanderson/wot-faq.svg?branch=master)](https://travis-ci.org/gordonbanderson/wot-faq)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/wot-faq/build-status/master)
+[![codecov.io](https://codecov.io/github/gordonbanderson/wot-faq/coverage.svg?branch=master)](https://codecov.io/github/gordonbanderson/wot-faq?branch=master)
 
 [![Latest Stable Version](https://poser.pugx.org/weboftalent/faq/version)](https://packagist.org/packages/weboftalent/faq)
 [![Latest Unstable Version](https://poser.pugx.org/weboftalent/faq/v/unstable)](//packagist.org/packages/weboftalent/faq)
@@ -15,7 +15,7 @@
 [![Dependency Status](https://www.versioneye.com/php/weboftalent:faq/badge.svg)](https://www.versioneye.com/php/weboftalent:faq)
 [![Reference Status](https://www.versioneye.com/php/weboftalent:faq/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:faq/references)
 
-![codecov.io](https://codecov.io/github/gordonbanderson/wot-faq/branch.svg?branch=continuous_integration)
+![codecov.io](https://codecov.io/github/gordonbanderson/wot-faq/branch.svg?branch=master)
 
 ## Maintainers
 
