@@ -1,0 +1,8 @@
+---
+Name: frequentlyaskedquestions
+After: 'framework/*','cms/*'
+---
+
+FAQFolder:
+  extensions:
+    - Lumberjack
