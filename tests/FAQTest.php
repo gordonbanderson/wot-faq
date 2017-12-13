@@ -1,5 +1,7 @@
 <?php
 
+use SilverStripe\Dev\SapphireTest;
+
 class FAQTest extends SapphireTest
 {
     public function testGetCMSFields()
