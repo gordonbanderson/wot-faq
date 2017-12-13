@@ -1,8 +1,8 @@
 ---
 Name: frequentlyaskedquestions
-After: 'framework/*','cms/*'
+#After: 'framework/*','cms/*'
 ---
 
 FAQFolder:
   extensions:
-    - Lumberjack
+    - \SilverStripe\Lumberjack\Model\Lumberjack
