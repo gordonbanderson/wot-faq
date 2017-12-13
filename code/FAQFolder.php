@@ -1,4 +1,8 @@
 <?php
+
+use SilverStripe\Assets\Image;
+use SilverStripe\AssetAdmin\Forms\UploadField;
+
 /**
  * Defines the FAQFolder page type - initial code created by ss generator.
  */
@@ -8,8 +12,8 @@ class FAQFolder extends Page
 
     private static $show_in_sitetree = true;
 
-    public static $has_one = array(
-        'MainImage' => 'Image',
+    private static $has_one = array(
+        'MainImage' => Image::class,
     );
 
     public function getLumberjackTitle()
@@ -23,8 +27,4 @@ class FAQFolder extends Page
         $fields->addFieldToTab('Root.Image', new UploadField('MainImage'));
         return $fields;
     }
-}
-
-class FAQFolder_Controller extends Page_Controller
-{
 }
