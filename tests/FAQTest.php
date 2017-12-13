@@ -2,7 +2,8 @@
 
 class FAQTest extends SapphireTest
 {
-    public function testGetCMSFields() {
+    public function testGetCMSFields()
+    {
         $faq = new FAQ();
         $fields = $faq->getCMSFields();
         $tab = $fields->findOrMakeTab('Root.Main');

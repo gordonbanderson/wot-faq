@@ -12,8 +12,9 @@ class FAQFolder extends Page
         'MainImage' => 'Image',
     );
 
-    public function getLumberjackTitle() {
-    	return 'FAQs';
+    public function getLumberjackTitle()
+    {
+        return 'FAQs';
     }
 
     public function getCMSFields()

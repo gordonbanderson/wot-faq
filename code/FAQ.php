@@ -8,7 +8,8 @@ class FAQ extends Page
 
     private static $allowed_children = array();
 
-    public function getCMSFields() {
+    public function getCMSFields()
+    {
         $fields = parent::getCMSFields();
         $fields->renameField('Title', 'Question');
         $fields->renameField('Content', 'Answer');
