@@ -22,16 +22,19 @@
 * Gordon Anderson (Nickname: nontgor)
 	<gordon.b.anderson@gmail.com>
 
-##Introduction
+## Introduction
 
 This simple module allows one to store Frequently Asked Questions within a
 Frequently Asked Question Page.
  
-##Documentation
-* [Installation](./docs/en/Installation.md)
+## Documentation
+# SilverStripe 3
+```bash
+composer require 'weboftalent/faq:~1'
+```
 
-For more documentation about the module see the provided documentation located
-inside the docs folder.
+# SilverStripe 4
+```bash
+composer require 'weboftalent/faq'
+```
 
-##Requirements
-* SilverStripe 3.1 or 3.2
